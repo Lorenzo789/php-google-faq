@@ -19,7 +19,7 @@ body{
 }
 
 main{
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 span{
@@ -40,3 +40,58 @@ h2{
     margin-left: 20px;
 }
 /* CORPO DELLA PAGINA */
+
+/* HEADER DELLA PAGINA CON IL MENU E IL PROFILO */
+
+header{
+    height: 100px;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.container-ul{
+    list-style: none;
+}
+
+.container-ul>li{
+    display: inline;
+    padding-right: 20px;
+}
+
+.active{
+    color: #3367d6;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #3367d6;
+}
+
+a{
+    font-weight: 500;
+    color: #3c4043;
+    text-decoration: none;
+}
+
+.menu-grid{
+    color: #5f6368;
+    font-size: 30px;
+}
+
+.menu-grid:hover{
+    box-shadow: #5f6368;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.red-circle{
+    color: #c2185b;
+    font-size: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+}
