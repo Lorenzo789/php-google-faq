@@ -46,9 +46,8 @@ h2{
 header{
     height: 100px;
     padding: 20px;
-    position: fixed;
-    left: 0;
-    right: 0;
+    width: 100%;
+    border-bottom: 2px solid gray;
 }
 
 .flexbox{
