@@ -90,13 +90,29 @@
             <div>
                 <?php ?>
                 <h2 class="my-medium"><?php echo $faq['request'] ?></h2>
-                <p class="line-medium"><?php echo $faq['reply'] ?></p>
+                <p><?php echo $faq['reply'] ?></p>
             </div>
         <?php } ?>
     </main>
 
     <footer>
         <!-- FOOTER -->
+        <div class="container-footer">
+            <div>
+                <ul>
+                    <li><a class="a-footer" href="#">Google</a></li>
+                    <li><a class="a-footer" href="#">Tutto su Google</a></li>
+                    <li><a class="a-footer" href="#">Privacy</a></li>
+                    <li><a class="a-footer" href="#">Termini</a></li>
+                </ul>
+            </div>
+            <div>
+                <i class="blue-cloud fa-solid fa-language"></i>
+                <select name="language" id="">
+                    <option value="italiano">italiano</option>
+                </select>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
