@@ -14,11 +14,11 @@
     <header>
         <!-- HEADER DELLA PAGINA CON IL MENU E IL PROFILO -->
     </header>
-    <span></span>
-    <main>
+
+    <main class="centered">
         <!-- CORPO DELLA PAGINA CON LE DOMANDE E LE RISPOTE -->
         <?php 
-            $faqGoogle = [
+            $faqsGoogle = [
                 [
                     'request' => 'Come state implementando la recente decisione della Corte di giustizia dell Unione europea (CGUE) relativa al diritto all oblio?',
                     'reply' => "La recente <span>decisione della Corte di giustizia dell Unione europea</span> ha profonde conseguenze per i motori di ricerca in Europa. La Corte ha stabilito che alcuni utenti hanno il diritto di chiedere ai motori di ricerca come Google di rimuovere risultati relativi a chiavi di ricerca che includono il proprio nome. Per poter essere rimossi, i risultati visualizzati devono essere inadeguati, irrilevanti o non più rilevanti, o eccessivi.
@@ -55,6 +55,14 @@
                 ],
             ];
         ?>
+
+        <?php foreach ($faqsGoogle as $faq) { ?>
+            <div>
+                <?php ?>
+                <h2><?php echo $faq['request'] ?></h2>
+                <p><?php echo $faq['reply'] ?></p>
+            </div>
+        <?php } ?>
     </main>
 
     <footer>
