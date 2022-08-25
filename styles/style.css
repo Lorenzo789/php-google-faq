@@ -48,6 +48,11 @@ header{
     padding: 20px;
     width: 100%;
     border-bottom: 1px solid #cbcbcb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
 
 .flexbox{
@@ -82,7 +87,7 @@ a{
     font-size: 30px;
 }
 
-.menu-grid:hover{
+.menu-grid:hover{ 
     opacity: 0.2;
     cursor: pointer;
 }
